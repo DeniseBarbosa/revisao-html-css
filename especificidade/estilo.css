@@ -1,0 +1,27 @@
+.saoPaulo{
+    background-color: rgb(42, 219, 19);
+}
+h1{
+    background-color: rgb(206, 172, 21);
+    
+    
+}
+.casa, #amarela{
+    background-color: rgb(243, 9, 87);
+    font-size: 25px;
+}
+#rua{
+    background-color: rgb(15, 15, 15);
+    color: antiquewhite;
+}
+.ultimoTexto{
+    background-color: rgb(209, 116, 147);
+}
+
+
+
+
+#negrito {
+    font-weight: bold;
+    font-size: 20px;
+}

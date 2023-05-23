@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; >>> Isso facilita o dimensionamento e o alinhamento dos elementos em um layout,
+     proporcionando mais controle sobre o espaço ocupado pelos elementos. */
+    box-sizing: border-box;
+}
+.cabecalho{
+    width: 100%;
+    height: 58px;
+    background-color: #dd590c;
+    padding: 18px 32px;
+
+    
+}
+.cabecalho a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner img {
+    width: 100%;
+    height: 300px;
+    
+}
+.sobre{
+    padding: 25px;
+    
+}
+.sobre p {
+    margin-top: 10px;
+}
+.sobre h1{
+    text-transform: uppercase;
+}
+.card-produtos{
+    /* Os elementos com display: inline-block; são posicionados um ao lado do outro, na mesma 
+    linha, desde que haja espaço suficiente. Eles se comportam como palavras em um parágrafo */
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-produtos img{
+    width: 100%;
+    height: 220px;
+}
+.cabecalho.footer{
+    height: 200px;
+    text-align: center;
+    padding: 90px;
+}

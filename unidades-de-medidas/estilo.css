@@ -1,0 +1,11 @@
+.externo{
+    background-color: rgb(236, 130, 8);
+    width: 400px;
+    height: 400px;
+}
+.interno{
+    
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+}

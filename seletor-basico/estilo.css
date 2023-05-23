@@ -1,0 +1,20 @@
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+
+.vermelho{
+    background-color: red;
+}
+.azul {
+    background-color: blue;
+    
+}
+.rosa{
+    background-color: rgb(204, 20, 81);
+}
+p{
+    font-size: 30px;
+}
