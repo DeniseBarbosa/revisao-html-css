@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blueviolet;
+    height: 800px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.item{
+    background-color: rgb(219, 28, 28);
+    width: 100px;
+    height: 70px;
+    border: 1px solid black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+}

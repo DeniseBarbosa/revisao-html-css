@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blueviolet;
+    padding: 20px;
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item{
+    background-color: rgb(219, 28, 28);
+    width: 100px;
+    height: 70px;
+    border: 1px solid black;
+    font-size: 40px;
+}
