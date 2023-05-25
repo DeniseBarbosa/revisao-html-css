@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px;
+    background-color: rgb(223, 85, 85);
+    height: 190px;
+    margin-top: 50px;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.caixa{
+    display: inline-block;
+    background-color: rgb(233, 145, 62);
+    height: 90px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* posições que podem ser mexidas, topo, esquerdo, direito, baixo */
+    position: relative;
+}
+.caixa-azul{
+    background-color: rgb(25, 150, 223);
+    top: 50px;
+    left: 50px;
+}
+
+.caixa-verde{
+    background-color: green;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+.container-relativo{
+    /* para ser aplicado a posição absoluta eu preciso referenciar a posição do pai  */
+    position: relative;
+}
+.caixa-rosa{
+    background-color: rgb(233, 52, 203);
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    color: aliceblue;
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+}
